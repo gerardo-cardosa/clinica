@@ -1,0 +1,127 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	
+}
+
+#header{
+	
+}
+
+.logo-div{
+	float: left;
+}
+
+.logo{
+	width: 300px;	
+	height: 120px;
+}
+
+.socialNetwork{	
+	width: 50px;
+}
+
+.values{
+	
+}
+
+.value-title{
+	
+}
+
+.title-right{
+	
+}
+
+.text-value-right{
+	
+}
+
+.img-value{
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-image: url("../img/valores.png");	
+}
+.img-right{
+	
+}
+
+title-left.{
+	
+}
+.text-value-left{
+	
+}
+
+
+
+.confianza{
+	background-position: -274px 0;
+}
+
+.respeto{
+	background-position: -274px 0;
+}
+
+.salud{
+	background-position: -274px 0;
+}
+
+.integridad{
+	background-position: -274px 0;
+}
+
+.header-link{
+	text-align: center;
+float: left;
+margin: auto;
+width: 20%;
+padding-top: 6px;
+font-size: 20px;
+font-family: 'Calibri',Arial,sans-serif;
+text-decoration: none;
+background-color: lightblue;
+height: 40px;
+cursor:pointer;
+}
+
+.header-link:hover{
+	background-color:blue;
+}
+
+.main-banner-class{
+	height: 50%;
+width: 80%;
+}
+.banner-img{
+	width: 100%;
+	height: 100% !important;
+}
+.carousel-adjustment{
+	height: 100% !important;
+    width: 100%;
+}
+.navbar-clinica{
+	background-color: white;
+	border-bottom-width: 0px;
+}
+.socialNetwork-div{
+	float:right;
+}
+#menu{
+	height: 40px;
+}
+
+#content{
+	margin-top: 120px !important;
+}
+
+#contentBody{
+	
+}
+
+#footer{
+	
+}

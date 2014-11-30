@@ -1,0 +1,19 @@
+<ul class="nav">
+	<li><div class="header-link" data-page="content/main.html" >Inicio</div></li>
+	<li><div class="header-link" data-page="content/us.html">Nosotros</div></li>
+	<li><div class="header-link" data-page="content/doctors.html">Medicos</div></li>
+	<li><div class="header-link" data-page="content/values.html">Valores</div></li>
+	<li><div class="header-link" data-page="content/contact.html">Contacto</div></li>
+</ul>
+
+<script type="text/javascript">
+	$('.header-link').click(function(){
+		var url = $(this).data('page');		
+		$.ajax({
+			  url: url
+			}).done(function(data) {
+				
+				$('#contentBody').html(data);
+			});
+	});
+</script>
